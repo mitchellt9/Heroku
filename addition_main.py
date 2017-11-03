@@ -29,7 +29,7 @@ def render_result():
 def page_not_found(e):
     return render_template('somethingwentwrongpage.html') #redirected to a page I setup for error handling
 
-@app.errorhandler(400)            #This is a Flask inbuild function which handles error 500
+@app.errorhandler(500)            #This is a Flask inbuild function which handles error 500
 def page_not_found(e):
     return "name mismatch" #redirected to a page I setup for error handling
 

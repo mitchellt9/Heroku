@@ -13,7 +13,9 @@ def render_addition():                 #SHOULD HAVE 1 FUNCTION ATLEAST TO RENDER
 @app.route('/result', methods=['POST']) #use POST here since some data is being sent there
 def render_result():
     a=int(request.form["value1"]) #Value of the first text box is sent here
-    b=int(request.form["value2"]) #Value of the second text box is sent here
+    b=int(request.form["value2"])#Value of the second text box is sent here
+    print("Value 1 is ",a)
+    print("Value 2 is ",b)
     result=sum(a,b)               #This is the argument passed and returned to the python based logic file
     return render_template('result.html', value="Adding"+str(a)+" and "+str(b)+ " is "+str(result))            #This return is automatically handled by Flask and redirected to a new page
 

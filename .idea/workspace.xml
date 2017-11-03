@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="146e01e0-55cc-48a6-8b2f-913e09e925ff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addition_main.py" afterPath="$PROJECT_DIR$/addition_main.py" />
-    </list>
+    <list default="true" id="146e01e0-55cc-48a6-8b2f-913e09e925ff" name="Default" comment="" />
     <ignored path="MyApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="addition_main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addition_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66887414">
-              <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.46357617">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -329,8 +327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addition_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66887414">
-          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.46357617">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding />
         </state>
       </provider>

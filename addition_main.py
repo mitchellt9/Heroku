@@ -17,7 +17,7 @@ def render_result():
     print("Value 1 is ",a) #Will be used to show up in the heroku logs
     print("Value 2 is ",b) #Will be used to show up in the heroku logs
     result=sum(a,b)               #This is the argument passed and returned to the python based logic file
-    return render_template('result.html', value="Adding"+str(a)+" and "+str(b)+ " is "+str(result))            #This return is automatically handled by Flask and redirected to a new page
+    return render_template('result.html', value="The result of adding "+str(a)+" and "+str(b)+ " is "+str(result))            #This return is automatically handled by Flask and redirected to a new page
 
 # def render_result():
 #     a=int(request.form["value1"]) #Value of the first text box is sent here
